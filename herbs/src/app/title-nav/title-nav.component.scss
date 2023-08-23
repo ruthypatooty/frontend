@@ -1,0 +1,48 @@
+.div-nav{
+    display: flex;
+    color: white;
+    .nav-two{
+        justify-content: flex-end;
+    }
+}
+
+img{
+    height: 25px;
+}
+
+.nav-one,.nav-two{
+    flex: 1;
+}
+
+.nav-first,.nav-second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+.nav-second{
+    gap: 1em;
+    justify-content: flex-end;
+}
+
+.page-container{
+    background-color: transparent;
+    height: 100vh;
+    position: relative;
+    .landing-title{
+        height: 80vh;
+        .title-page{
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+    }   
+}
+button{
+    border-radius: 30px !important;
+    background-color: transparent;
+    border: 1px solid white;
+    
+}
